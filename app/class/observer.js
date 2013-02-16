@@ -2,6 +2,7 @@
 
 define(function () {
   'use strict';
+
   var Observer = {
     addSubscriber: function (callback) {
       if (!this.subscribers[callback]) {
@@ -32,6 +33,6 @@ define(function () {
       o.subscribers = [];
     }
   };
-  return Observer;
 
+  return Observer;
 });

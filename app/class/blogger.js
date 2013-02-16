@@ -17,5 +17,6 @@ define(function () {
         blogger.publish(blogger.news);
       }
     };
+
   return blogger;
 });
